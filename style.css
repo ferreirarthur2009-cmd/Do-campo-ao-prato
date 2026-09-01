@@ -174,71 +174,200 @@ nav a{
     line-height: 1.7;
     margin: 0;
 }
-.pesquisa-pagina{
+.pesquisa-intro{
     background: #f7f8f6;
+    padding: 100px 50px;
+}
+.pesquisa-intro span{
+    color: #2e6b45;
+    font-size:14px ;
+    font-weight: bold;
+    letter-spacing:2px ;
+}
+.pesquisa-intro h1{
+    max-width: 1000px;
+    margin: 20px auto;
+    color: #163a24;
+    text-align: left;
+    font-size: 46px;
+    line-height: 1.15;
+}
+.pesquisa-intro p{
+    max-width: 700px;
+    margin: 25px auto 0;
+    color: #555;
+    font-size: 17px;
+    line-height:1.7 ;
+}
+.conteudo-pesquisa {
+    background: white;
     padding: 80px 50px;
 }
-.pesquisa-cabecalho{
+
+.titulo-secao {
     max-width: 1000px;
-    margin:0 auto 60px;
+    margin: 0 auto 40px;
 }
-.pesquisa-cabecalho span{
+
+.titulo-secao span {
     color: #2e6b45;
     font-size: 14px;
     font-weight: bold;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
-.pesquisa-cabecalho h1{
+
+.titulo-secao h2 {
     color: #163a24;
-    text-align: left;
-    font-size: 44px;
-    margin: 15px 0;
+    font-size: 38px;
+    margin: 12px 0 0;
 }
-.pesquisa-cabecalho p{
-    max-width: 700px;
-    color:#555 ;
-    font-size: 18px;
-    line-height: 1.7;
-}
-.pesquisa-bloco{
+
+.texto-pesquisa {
     max-width: 1000px;
-    margin: 0 auto 50px;
-    background: white;
-    padding:40px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0,0.08);
+    margin: auto;
 }
-.pesquisa-bloco h2{
-    color: #163a24;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-.pesquisa-bloco p{
+
+.texto-pesquisa p {
+    max-width: 850px;
     color: #444;
     font-size: 17px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
-.pesquisa-lista{
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+
+.pergunta-pesquisa {
+    max-width: 900px;
+    margin: 50px auto 0;
+    padding: 30px 35px;
+    background: #f1f5f2;
+    border-left: 5px solid #2e6b45;
 }
-.pesquisa-item{
-    background: white;
-    padding: 30px;
-    border-left: 4px solid #2e6b45;
-    box-shadow: 0 3px rgba(0, 0, 0, 0.06);
+
+.pergunta-pesquisa span {
+    color: #2e6b45;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
-.pesquisa-item h3{
+
+.pergunta-pesquisa p {
     color: #163a24;
-    font-size: 21px;
-    margin-top: 0;
-}
-.pesquisa-item p{
-    color: #555;
+    font-size: 20px;
     line-height: 1.7;
+    margin: 15px 0 0;
+    font-weight: 500;
+}
+.objetivos{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;  
+}
+.objetivo-geral,
+.objetivos-especificos{
+    background: #f1f5f2;
+    padding: 30px;
+}
+.objetivo-geral{
+    border-top: 5px solid #2e6b45;
+}
+.objetivo-geral span,
+.objetivos-especificos span{
+    color: #2e6b45;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.objetivo-geral p{
+    color: #444;
+    font-size: 17px;
+    line-height: 1.8;
     margin-bottom: 0;
+}
+.objetivos-especificos ol{
+    margin: 20px 0 0;
+    padding-left: 25px;
+}
+.objetivos-especificos li{
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+.metodologia-blocos {
+    max-width: 1000px;
+    margin: 50px auto 0;
+}
+
+.metodologia-bloco {
+    background: #f1f5f2;
+    padding: 30px;
+    border-left: 5px solid #2e6b45;
+}
+
+.metodologia-bloco > span,
+.experimento > span {
+    color: #2e6b45;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.metodologia-bloco h3,
+.experimento h3 {
+    color: #163a24;
+    font-size: 26px;
+    margin: 15px 0 20px;
+}
+
+.metodologia-bloco ol {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.metodologia-bloco li {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.experimento {
+    max-width: 1000px;
+    margin: 60px auto 0;
+    padding: 40px;
+    background: #f7f8f6;
+}
+
+.experimento p {
+    max-width: 850px;
+    color: #444;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.experimento-medidas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.experimento-medidas div {
+    background: white;
+    padding: 20px;
+    border-top: 4px solid #2e6b45;
+}
+
+.experimento-medidas strong {
+    display: block;
+    color: #163a24;
+    margin-bottom: 10px;
+}
+
+.experimento-medidas span {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
 }
