@@ -121,3 +121,56 @@ nav a{
     color: #555;
     line-height: 1.6;
 }
+.eixos{
+    background: #f7f8f6;
+    padding: 80px 50px;
+}
+.eixos-titulo{
+    max-width: 1000px;
+    margin: 0 auto 50px;
+}
+.eixos-titulo span{
+    color: #2e6b45;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.eixos-titulo h2{
+    color: #163a24;
+    font-size: 40px;
+    margin: 10px 0 15px;
+}
+.eixos-titulo p{
+    max-width: 700px;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.eixos-grid{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.eixo{
+    background: white;
+    padding: 30px;
+    border-top: 4px solid #2e6b45;
+    box-shadow: 0 3px 12px rgba(0, 0, 0,0.08);
+}
+.numero{
+    color: #2e6b45;
+    font-size: 14px;
+    font-weight: bold;
+}
+.eixo h3{
+    color: #163a24;
+    font-size: 22px;
+    margin: 15px 0;
+}
+.eixo p{
+    color: #555;
+    line-height: 1.7;
+    margin: 0;
+}
